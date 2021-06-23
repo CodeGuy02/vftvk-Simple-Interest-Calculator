@@ -9,7 +9,8 @@ function compute()
     lineB = "at an interest rate of " + interest.toString() + "% ." 
     lineC = "You will receive an amount of " + interestCalculation.toString() + ",";
     currentYear = new Date().getFullYear();
-    finalYear = currentYear.parseInt() + years;
+    finalYear = currentYear + years;
+    alert(" typeof currentYear: " + typeof currentYear + " typeof years: " + typeof years + " typeof finalYear: " + typeof finalYears);
     lineD = "in the year " + finalYear.toString();
     
     document.getElementById("resultA").innerHTML = lineA;
