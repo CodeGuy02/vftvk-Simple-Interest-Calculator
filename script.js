@@ -47,10 +47,10 @@ function compute()
 
 function sliderUpdate(value) {
     // alert("slider update");
-    alert("value typeof: " + typeof(value));
+    // alert("value typeof: " + typeof(value)); // returns type string
     //value = value.toFixed(1);
     newValue = Number(value);
-    console.log(" typeof newValue : " + typeof(newValue));
+    // console.log(" typeof newValue : " + typeof(newValue));
     newValue = value.toString() + "%";
     document.getElementById("currentSliderValue").innerHTML = newValue;
 }
