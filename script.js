@@ -17,14 +17,27 @@ function compute()
     lineD = "in the year ";
     lineD_highlight = finalYear.toString();
     
+    var breakElement = document.createElement("br");
+    
     document.getElementById("resultA").innerHTML = lineA;
-    document.getElementById("resultA_highlight").innerHTML = lineA_highlight;
+    var resultA_highlight = document.getElementById("resultA_highlight");
+    resultA_highlight.innerHTML = lineA_highlight;
+    resultA_highlight.appendChild(breakElement);
+    
     document.getElementById("resultB").innerHTML = lineB;
-    document.getElementById("resultB_highlight").innerHTML = lineB_highlight;
+    var resultB_highlight = document.getElementById("resultB_highlight");
+    resultB_highlight.innerHTML = lineB_highlight;
+    resultB_highlight.appendChild(breakElement);
+    
     document.getElementById("resultC").innerHTML = lineC;
-    document.getElementById("resultC_highlight").innerHTML = lineC_highlight;
+    var resultC_highlight = document.getElementById("resultC_highlight");
+    resultC_highlight.innerHTML = lineC_highlight;
+    resultC_highlight.appendChild(breakElement);
+    
     document.getElementById("resultD").innerHTML = lineD;
-    document.getElementById("resultD_highlight").innerHTML = lineD_highlight;
+    var resultD_highlight = document.getElementById("resultD_highlight");
+    resultD_highlight.innerHTML = lineD_highlight;
+    resultD_highlight.apppendChild(breakElement);
     
 }
 
