@@ -4,7 +4,7 @@ function compute()
     interest = document.getElementById("myRange").value;
     years = document.getElementById("years").value;
     
-    interestCalculation = principal * interest * years; 
+    interestCalculation = principal * (interest / 100) * years; 
     lineA = "If you deposit " + principal.toString() + ", ";
     lineB = "at an interest rate of " + interest.toString() + "% ." 
     lineC = "You will receive an amount of " + interestCalculation.toString() + ",";
