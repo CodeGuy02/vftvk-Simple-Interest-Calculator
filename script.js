@@ -17,7 +17,7 @@ function compute()
     lineD = "in the year ";
     lineD_highlight = finalYear.toString();
     
-    var breakElement = document.createElement("br");
+    breakElement = document.createElement("br");
     
     document.getElementById("resultA").innerHTML = lineA;
     var resultA_highlight = document.getElementById("resultA_highlight");
