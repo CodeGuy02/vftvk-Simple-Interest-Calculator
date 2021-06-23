@@ -42,6 +42,7 @@ function compute()
 }
 
 function sliderUpdate(value) {
+    value = value.toFixed(1);
     newValue = value.toString() + "%";
     document.getElementById("currentSliderValue").innerHTML = newValue;
 }
