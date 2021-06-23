@@ -29,5 +29,5 @@ function compute()
 }
 
 function sliderUpdate(value) {
-    document.getElementById("currentSliderValue").value = value;
+    document.getElementById("currentSliderValue").innerHTML = value;
 }
