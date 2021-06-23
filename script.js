@@ -10,7 +10,7 @@ function compute()
     lineC = "You will receive an amount of " + interestCalculation.toString() + ",";
     currentYear = new Date().getFullYear();
     finalYear = currentYear + parseInt(years);
-    alert(" typeof currentYear: " + typeof currentYear + " typeof years: " + typeof years + " typeof finalYear: " + typeof finalYears);
+    <!-- alert(" typeof currentYear: " + typeof currentYear + " typeof years: " + typeof years + " typeof finalYear: " + typeof finalYears); -->
     lineD = "in the year " + finalYear.toString();
     
     document.getElementById("resultA").innerHTML = lineA;
@@ -19,4 +19,3 @@ function compute()
     document.getElementById("resultD").innerHTML = lineD;
     
 }
-        
