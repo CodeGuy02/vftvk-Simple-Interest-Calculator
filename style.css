@@ -21,6 +21,10 @@ h1 {
 	padding: 5px;
 }
 
+.highlight {
+	background-color: yellow;	
+}
+
 td {
 	padding: 5px;
 }
