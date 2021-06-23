@@ -1,6 +1,12 @@
 function compute()
 {
     principal = document.getElementById("principal").value;
+    
+    if (principal <= 0) {
+       alert("Please enter a positive number.");
+       return;
+    }
+
     interest = document.getElementById("myRange").value;
     years = document.getElementById("years").value;
     
