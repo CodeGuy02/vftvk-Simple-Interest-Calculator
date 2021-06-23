@@ -5,7 +5,7 @@ function compute()
     years = document.getElementById("years").value;
     
     interestCalculation = principal * interest * years; 
-    lineA = "If you deposit " + principal ", ";
+    lineA = "If you deposit " + principal + ", ";
     lineB = "at an interest rate of " + interest + "% ." 
     lineC = "You will receive an amount of " + interestCalculation + ",";
     lineD = "in the year" + new Date().getFullYear();
