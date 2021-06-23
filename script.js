@@ -47,6 +47,7 @@ function compute()
 
 function sliderUpdate(value) {
     // alert("slider update");
+    alert("value typeof: " + typeof(value));
     value = value.toFixed(1);
     newValue = Number(value);
     console.log(" typeof newValue : " + typeof(newValue));
