@@ -44,6 +44,8 @@ function compute()
 function sliderUpdate(value) {
     alert("slider update");
     value = value.toFixed(1);
+    newValue = Number(value);
+    console.log(" typeof newValue : " + typeof(newValue));
     newValue = value.toString() + "%";
     document.getElementById("currentSliderValue").innerHTML = newValue;
 }
