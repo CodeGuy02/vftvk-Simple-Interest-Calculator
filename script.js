@@ -10,7 +10,7 @@ function compute()
     lineB = "at an interest rate of ";
     lineB_highlight = interest.toString() + "% .";
     lineC = "You will receive an amount of ";
-    interestCalculation.toFixed(2);
+    interestCalculation = interestCalculation.toFixed(2); // from Stack Overflow - "You're not assigning the parsed float back to your value var:"
     lineC_highlight = interestCalculation.toString() + ",";
     currentYear = new Date().getFullYear();
     finalYear = currentYear + parseInt(years);
