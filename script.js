@@ -10,6 +10,7 @@ function compute()
     lineB = "at an interest rate of ";
     lineB_highlight = interest.toString() + "% .";
     lineC = "You will receive an amount of ";
+    interestCalculation.toFixed(2);
     lineC_highlight = interestCalculation.toString() + ",";
     currentYear = new Date().getFullYear();
     finalYear = currentYear + parseInt(years);
