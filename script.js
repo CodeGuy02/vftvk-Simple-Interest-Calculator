@@ -18,32 +18,35 @@ function compute()
     lineD = "in the year ";
     lineD_highlight = finalYear.toString();
     
-    breakElement = document.createElement("br");
+    breakElementA = document.createElement("br");
+    breakElementB = document.createElement("br");
+    breakElementC = document.createElement("br");
+    breakElementD = document.createElement("br");
     
     document.getElementById("resultA").innerHTML = lineA;
     var resultA_highlight = document.getElementById("resultA_highlight");
     resultA_highlight.innerHTML = lineA_highlight;
-    resultA_highlight.appendChild(breakElement);
+    resultA_highlight.appendChild(breakElementA);
     
     document.getElementById("resultB").innerHTML = lineB;
     var resultB_highlight = document.getElementById("resultB_highlight");
     resultB_highlight.innerHTML = lineB_highlight;
-    resultB_highlight.appendChild(breakElement);
+    resultB_highlight.appendChild(breakElementB);
     
     document.getElementById("resultC").innerHTML = lineC;
     var resultC_highlight = document.getElementById("resultC_highlight");
     resultC_highlight.innerHTML = lineC_highlight;
-    resultC_highlight.appendChild(breakElement);
+    resultC_highlight.appendChild(breakElementC);
     
     document.getElementById("resultD").innerHTML = lineD;
     var resultD_highlight = document.getElementById("resultD_highlight");
     resultD_highlight.innerHTML = lineD_highlight;
-    resultD_highlight.appendChild(breakElement);
+    resultD_highlight.appendChild(breakElementD);
     
 }
 
 function sliderUpdate(value) {
-    alert("slider update");
+    // alert("slider update");
     value = value.toFixed(1);
     newValue = Number(value);
     console.log(" typeof newValue : " + typeof(newValue));
