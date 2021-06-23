@@ -42,5 +42,6 @@ function compute()
 }
 
 function sliderUpdate(value) {
-    document.getElementById("currentSliderValue").innerHTML = value;
+    newValue = value.toString() + "%";
+    document.getElementById("currentSliderValue").innerHTML = newValue;
 }
