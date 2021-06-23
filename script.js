@@ -27,3 +27,7 @@ function compute()
     document.getElementById("resultD_highlight").innerHTML = lineD_highlight;
     
 }
+
+function sliderUpdate(value) {
+    document.getElementById("myrange").value = value;
+}
