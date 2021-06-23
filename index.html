@@ -12,7 +12,7 @@
                 <table id="innertable"> 
                     <tr>
                         <td>Amount </td>
-                        <td><input type="number"  id="principal"> </td>
+                        <td><input type="number"  min="0" id="principal"> 0 </td>
                     </tr>
 
                     <tr>
@@ -20,6 +20,7 @@
                         <td>
                         <div class="slidecontainer">
                         <input type="range" min="0" max="30" value="5" class="slider" id="myRange">
+                            <div id="currentSliderValue"> </div>
                         </div> 
                         </td>
                     </tr>
@@ -39,11 +40,18 @@
         
                     <tr> 
                         <td>
-                        <span id="result"></span><br>
-
-                        <button onclick="compute()">Compute Interest</button>
+                            <button onclick="compute()">Compute Interest</button>
                         </td>
                     <tr>
+                        
+                    <tr>
+                        <td>
+                            <span id="resultA"> </span><br>
+                            <span id="resultB"> </span><br>
+                            <span id="resultC"> </span><br>
+                            <span id="resultD"> </span><br>
+                        </td>
+                    </tr>
                 </table>
         <br>
         <p> © Everyone Can Get Rich
