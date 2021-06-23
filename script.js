@@ -37,7 +37,7 @@ function compute()
     document.getElementById("resultD").innerHTML = lineD;
     var resultD_highlight = document.getElementById("resultD_highlight");
     resultD_highlight.innerHTML = lineD_highlight;
-    resultD_highlight.apppendChild(breakElement);
+    resultD_highlight.appendChild(breakElement);
     
 }
 
