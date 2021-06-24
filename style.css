@@ -40,7 +40,7 @@ td {
   appearance: none;
   border-radius: 25px;
   /*width: 100%; */
-  height: 25px; /* Specified height */
+  height: 15px; /* Specified height */
   background: #d3d3d3; /* Grey background */
   outline: none; /* Remove outline */
   opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
@@ -60,8 +60,8 @@ td {
 
 .slider::-moz-range-thumb {
   border-radius: 50%;
-  width: 25px; /* Set a specific slider handle width */
-  height: 25px; /* Slider handle height */
+  width: 20px; /* Set a specific slider handle width */
+  height: 20px; /* Slider handle height */
   background: #04AA6D;
   cursor: pointer; /* Cursor on hover */
 }
