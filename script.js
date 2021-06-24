@@ -4,7 +4,7 @@ function compute()
     
     if (principal <= 0) {
        alert("Please enter a positive number.");
-       // clearPreviousResults();
+       clearPreviousResults();
        document.getElementById("principal").focus();
        return;
     }
@@ -63,7 +63,7 @@ function sliderUpdate(value) {
     document.getElementById("currentSliderValue").innerHTML = newValue;
 }
 
-function clearPreviousResults {
+function clearPreviousResults() {
     document.getElementById("resultA").innerHTML = "";
     var resultA_highlight = document.getElementById("resultA_highlight");
     resultA_highlight.innerHTML = "";
