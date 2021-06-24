@@ -27,6 +27,10 @@ h1 {
   	margin-right: auto;
 }
 
+#inputElements {
+	border-radius: 25px; /* rounded corners on div input elements */
+}
+
 .highlight {
 	background-color: yellow;	
 }
