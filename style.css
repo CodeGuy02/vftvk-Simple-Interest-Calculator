@@ -37,7 +37,7 @@ td {
 
 .slider {
         -webkit-appearance: none;
-        height: 25px;
+        border-radius: 5px;
         background-color: red;
 }
 
