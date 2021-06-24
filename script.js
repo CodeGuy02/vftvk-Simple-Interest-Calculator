@@ -4,7 +4,7 @@ function compute()
     
     if (principal <= 0) {
        alert("Please enter a positive number.");
-       clearPreviousResults()
+       clearPreviousResults();
        document.getElementById("principal").focus();
        return;
     }
