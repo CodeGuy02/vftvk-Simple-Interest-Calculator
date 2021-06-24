@@ -79,4 +79,6 @@ function clearPreviousResults {
     document.getElementById("resultD").innerHTML = "";
     var resultD_highlight = document.getElementById("resultD_highlight");
     resultD_highlight.innerHTML = "";
+    
+    return;
 }
