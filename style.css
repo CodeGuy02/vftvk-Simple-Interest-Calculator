@@ -43,7 +43,7 @@ td {
   -webkit-appearance: none;  /* Override default CSS styles */
   appearance: none;
   border-radius: 25px;
-  /*width: 100%; */
+  width: 75%;
   height: 10px; /* Specified height */
   background: #d3d3d3; /* Grey background */
   outline: none; /* Remove outline */
