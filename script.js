@@ -4,6 +4,7 @@ function compute()
     
     if (principal <= 0) {
        alert("Please enter a positive number.");
+       clearPreviousResults()
        document.getElementById("principal").focus();
        return;
     }
@@ -60,4 +61,22 @@ function sliderUpdate(value) {
     // console.log(" typeof newValue : " + typeof(newValue));
     newValue = value.toString() + "%";
     document.getElementById("currentSliderValue").innerHTML = newValue;
+}
+
+function clearPreviousResults {
+    document.getElementById("resultA").innerHTML = "";
+    var resultA_highlight = document.getElementById("resultA_highlight");
+    resultA_highlight.innerHTML = "";
+    
+    document.getElementById("resultB").innerHTML = "";
+    var resultB_highlight = document.getElementById("resultB_highlight");
+    resultB_highlight.innerHTML = "";
+    
+    document.getElementById("resultC").innerHTML = "";
+    var resultC_highlight = document.getElementById("resultC_highlight");
+    resultC_highlight.innerHTML = "";
+    
+    document.getElementById("resultD").innerHTML = "";
+    var resultD_highlight = document.getElementById("resultD_highlight");
+    resultD_highlight.innerHTML = "";
 }
