@@ -8,11 +8,13 @@ body {
 }
 
 h1 {
-	color:gray;
+	color:darkblue;
+	text-shadow: 2px 2px 5px black;
 }
 
 #outertable {
 	background-color: white;
+	box-shadow: 2px 2px 5px skyblue;
 	border-radius: 25px;
 	padding: 20px;
 	margin-left: auto;
