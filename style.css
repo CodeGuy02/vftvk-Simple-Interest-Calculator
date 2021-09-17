@@ -20,6 +20,7 @@ h1 {
 }
 
 #innertable {
+	width:50%;
 	background-color: white;
 	/* border: 1px solid black; */
 	padding: 5px;
