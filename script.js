@@ -16,7 +16,7 @@ function compute()
     lineA = "If you deposit ";
     lineA_highlight = principal.toString() + ", ";
     lineB = "at an interest rate of ";
-    lineB_highlight = interest.toString() + "% .";
+    lineB_highlight = interest.toString() + " % .";
     lineC = "You will receive an amount of ";
     interestCalculation = interestCalculation.toFixed(2); // from Stack Overflow - "You're not assigning the parsed float back to your value var:"
     lineC_highlight = interestCalculation.toString() + ",";
